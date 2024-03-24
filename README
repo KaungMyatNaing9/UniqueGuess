@@ -1,1 +1,5 @@
-Read this file and be cool!
+This program is used to fetch historical stock data, preprocess it, and set up a Long Short-Term Memory model for predicting future stock prices.
+The inspiration came from one of the sponsor which is Fidelity investment. At that time we have no idea what topic to do and the investment came into our mind we our most familiar topic is data analyzing so we plan to 
+make something crazy, which is predicting stocks. We use data from yfinance python library where we can get the stock closed price from years ago until now. 
+Then we research for a good AI/ML algorithm that do some good job in predicting stocks. And we choose Long short term memory as our model to train the stock data. 
+We have created two different python files one split the data into train set and test set to see how accurate is the prediction. Another train data from 2020 until now and predict for future.
